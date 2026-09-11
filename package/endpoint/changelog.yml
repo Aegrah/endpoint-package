@@ -1,5 +1,8 @@
 - version: "9.4.0"
   changes:
+    - description: Add Linux file open (access) event fields, file.Ext.access.*, file.Ext.procfs.* and error.code
+      type: enhancement
+      link: https://github.com/elastic/endpoint-package/pull/999999
     - description: automatic troubleshooting endpoint context docs
       type: enhancement
       link: https://github.com/elastic/endpoint-package/pull/728
