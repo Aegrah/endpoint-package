@@ -171,6 +171,28 @@ fields:
               request: {}
               addr: {}
               data: {}
+          process_vm_access:
+            fields:
+              target_pid: {}
+              target_start_time_ns: {}
+              target_resolved: {}
+              requested_pid: {}
+              caller_pidns: {}
+              operation: {}
+              flags: {}
+              local_iovcnt: {}
+              remote_iovcnt: {}
+              first_remote_addr: {}
+              first_remote_len: {}
+              first_remote_valid: {}
+              local_capacity: {}
+              remote_capacity: {}
+              local_snapshot_status: {}
+              remote_snapshot_status: {}
+              requested_capacity: {}
+              syscall_return: {}
+              bytes_transferred: {}
+              error: {}
           shmget:
             fields:
               key: {}
